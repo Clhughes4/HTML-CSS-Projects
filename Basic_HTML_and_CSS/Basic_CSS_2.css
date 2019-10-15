@@ -1,0 +1,12 @@
+h1	{
+	font-size: 16px;
+	text-align: center;
+	color: rebeccapurple;
+	background-color: lightsteelblue;
+}
+
+p	{
+	font-weight: bolder;
+	text-shadow: 4px 4px 2px #DC143C;
+	font-size: 50px;
+}
