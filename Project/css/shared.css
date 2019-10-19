@@ -9,6 +9,7 @@ html {
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -143,7 +144,7 @@ section {
 ============================================================================*/
 
 #home {
-    background: url(../images/planets.jpg) no-repeat 50% 505;
+    background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -180,7 +181,7 @@ section {
 }
 
 .head-last {
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
     border: 1px dotted #fff;
@@ -252,7 +253,7 @@ section {
     padding: 12px 12px;
     width: 70%;
     border: 1px solid #808080;
-    margin: 2%;
+    margin: 2% auto;
     border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
@@ -273,7 +274,7 @@ section {
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161B;
-    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, .15);
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway' sans-serif;
 }
 
@@ -282,7 +283,7 @@ section {
 }
 
 .form-spacer{
-    padding: 30px 30px;
+    padding: 30px 39px;
 }
 
 .terms {
@@ -338,4 +339,37 @@ section {
     text-shadow: 2px 2px 8px 0 0 (0, 0, 0, 0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
+}
+
+/*=====================================================================
+    MEDIA QUERIES
+=====================================================================*/
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
